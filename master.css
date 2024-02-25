@@ -1,0 +1,32 @@
+header{
+	background-color: grey;
+	text-align: center;
+	padding: 20px 0;
+}
+#main{
+	text-align: center;
+}
+#main img{
+	border: 3px solid black;
+}
+#main img:hover{
+	border: 3px solid black;
+	opacity: 0.5;
+	cursor: pointer;
+	transform: scale(0.9);
+}
+.elemencik{
+	background-color: rgb(102, 153, 255);
+	border: 1px solid blue;
+	border-radius: 5px;
+	text-align: center;
+}
+.elemencik:hover{
+	background-color: rgb(51, 102, 255);
+	cursor: pointer;
+	color: white;
+}
+.zaznaczona{
+	background-color: rgb(23, 62, 255);
+	color: white;
+}

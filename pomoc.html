@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Język HTML</title>
+	<style>
+		header{
+			background-color: gray;
+			font-size: 40px;
+			width: 1000px;
+			heigth: 200px;
+			line-height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+	</style
+</head>
+<body>
+	<header>
+		<h1>Witaj!</h1>
+		<h2 id="witaj"></h2>
+	</header>
+</body>
+<script>
+	document.getElementById("witaj").innerHTML = localStorage.getItem("firstname") + " " + localStorage.getItem("lastname");
+</script>
+</html>
